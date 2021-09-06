@@ -1,0 +1,18 @@
+:root {
+    --text-color: #2b2c34;
+    --background-light-gray: #d1d1e9;
+    --background-color: #fffffe;
+}
+
+html {
+    color: var(--text-color);
+    background-color: var(--background-light-gray);
+}
+
+.navbar-item img{
+    max-height: none;
+}
+
+/* .member-list .column{ */
+/*     border: 3px solid #181818; */
+/* } */
