@@ -1,18 +1,39 @@
 :root {
     --text-color: #2b2c34;
-    --background-light-gray: #d1d1e9;
     --background-color: #fffffe;
+    --primary-color: #6246ea;
+    --secondary-color: #d1d1e9;
+    --tetiary-color: #e45858;
+    --button-success-color: #00ba8c;
 }
 
 html {
     color: var(--text-color);
-    background-color: var(--background-light-gray);
+    background-color: var(--secondary-color);
+}
+
+.button .is-success {
+    color: var(--primary-color)
+}
+
+.navbar .navbar-brand,.navbar-end,.navbar-start {
+    background-color: var(--background-color);
 }
 
 .navbar-item img{
     max-height: none;
 }
 
-/* .member-list .column{ */
-/*     border: 3px solid #181818; */
-/* } */
+.member-list .card {
+    width: 10rem;
+}
+
+.card .card-image figure{
+    border: 1px solid var(--secondary-color);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.button.is-success {
+    background-color: var(--button-success-color);
+}
