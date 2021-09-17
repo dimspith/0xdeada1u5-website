@@ -27,7 +27,7 @@ html {
 }
 
 .member-list .card {
-    width: 10rem;
+    width: 8rem;
 }
 
 .card .card-image figure{
@@ -35,11 +35,6 @@ html {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
 }
-
-/* .card { */
-/*     border-radius: 0; */
-/*     border: 1px solid var(--secondary-color); */
-/* } */
 
 .button.is-success {
     background-color: var(--button-success-color);
