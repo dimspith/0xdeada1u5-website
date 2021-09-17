@@ -40,6 +40,6 @@ html {
     background-color: var(--button-success-color);
 }
 
-.ctf-header {
+.page-header {
     max-width: 600px;
 }
