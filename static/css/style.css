@@ -27,7 +27,16 @@ html {
 }
 
 .member-list .card {
+    transition: transform .2s;
     width: 8rem;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.member-list .card:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index: 100;
 }
 
 .card .card-image figure{
