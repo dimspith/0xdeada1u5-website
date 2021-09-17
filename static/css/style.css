@@ -9,7 +9,9 @@
 
 html {
     color: var(--text-color);
-    background-color: var(--secondary-color);
+    background: rgb(141,189,212);
+    background: linear-gradient(180deg, rgba(141,189,212,1) 0%, rgba(251,252,254,1) 46%);
+    min-height: 100%
 }
 
 .button .is-success {
@@ -34,6 +36,15 @@ html {
     border-top-right-radius: .25rem;
 }
 
+/* .card { */
+/*     border-radius: 0; */
+/*     border: 1px solid var(--secondary-color); */
+/* } */
+
 .button.is-success {
     background-color: var(--button-success-color);
+}
+
+.ctf-header {
+    max-width: 600px;
 }
