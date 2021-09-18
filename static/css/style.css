@@ -18,10 +18,6 @@ html {
     color: var(--primary-color)
 }
 
-.navbar .navbar-brand,.navbar-end,.navbar-start {
-    background-color: var(--background-color);
-}
-
 .navbar-item img{
     max-height: none;
 }
