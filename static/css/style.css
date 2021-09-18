@@ -1,16 +1,16 @@
 :root {
     --text-color: #2b2c34;
-    --background-color: #fffffe;
+    --background-gradient-bottom: rgba(251,252,254,1);
+    --background-gradient-top: rgb(141,189,212);
     --primary-color: #6246ea;
-    --secondary-color: #d1d1e9;
     --tetiary-color: #e45858;
     --button-success-color: #00ba8c;
 }
 
 html {
     color: var(--text-color);
-    background: rgb(141,189,212);
-    background: linear-gradient(180deg, rgba(141,189,212,1) 0%, rgba(251,252,254,1) 46%);
+    background: var(--background-gradient-top);
+    background: linear-gradient(180deg, var(--background-gradient-top) 0%, var(--background-gradient-bottom) 46%);
     min-height: 100%
 }
 
